@@ -52,7 +52,7 @@ app.post('/send', async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 3001;
+const PORT = 2051;
 app.listen(PORT, () => {
   console.log(`FCM Service running on port ${PORT}`);
 });
